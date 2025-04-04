@@ -1,0 +1,101 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+body{
+  background: var(--Stone100);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2rem;
+}
+section{
+  background: var(--White);
+  width: 700px;
+  margin-top: 10px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  
+}
+section img{
+  width: 600px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+section h3,h1,p,ul,table{
+  margin-left: 50px;
+}
+section h1{
+  margin-top: 10px;
+}
+section h4{
+color: var(--Rose800);
+margin-left: 50px;
+}
+section p{
+  margin-top: 20px;
+  
+}
+section h3{
+  color: var(--Brown800);
+  
+  }
+section .Preparation{
+  background: var(--Rose50);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  
+}
+section .Preparation ul li{
+  list-style-type: circle;
+  list-style: var(--Brown800);
+  position: relative;
+  padding-left: 15px;
+  
+}
+section .ingredient{
+  margin-top: 30px;
+}
+
+section .ingredient ul li{
+  position: relative;
+  padding-left: 15px;
+}
+section .instructions ul li{
+  position: relative;
+  padding-left: 15px;
+  list-style-type: decimal;
+}
+li::marker{
+  color: var(--Brown800);
+  font-size: 15px;
+  font-weight: bold;
+  
+}
+section table{
+  margin-bottom: 50px;
+}
+.rows{
+  color: var(--Brown800);
+  font-weight: bold;
+}
+hr{
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid var(--Stone150);
+}
